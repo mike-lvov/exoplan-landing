@@ -9,7 +9,7 @@ const link = document.getElementsByClassName('main__link').item(0);
 const blur = document.getElementsByClassName('blur').item(0);
 
 // scroll(animate(note, {y: 200}), { target: main });
-scroll(animate(image, {y: -500}), { target: main, offset: ['start 0.2', 'center start'] });
+scroll(animate(image, {y: -500}), { target: main, offset: ['start 0.2', 'start start'] });
 scroll(animate(blur, {y: 0}), { target: main, offset: ['start 0.2', 'start start'] });
 
 
