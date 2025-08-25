@@ -1,6 +1,23 @@
 import './style.scss';
 import { animate, inView, scroll } from "motion";
 
+
+const day = new Date().getDate();
+const link = document.getElementById('favicon')
+
+link.id = 'favicon';
+link.rel = 'icon';
+link.type = 'image/png';
+
+link.href = `favicons/${day}.png?v=${Date.now()}`;
+
+const head = document.getElementsByTagName("head")[0];
+const existing = document.getElementById("favicon");
+if (existing) {
+    head.removeChild(existing);
+}
+head.appendChild(link);
+
 const main = document.getElementsByClassName("main").item(0);
 const content = document.getElementsByClassName("main__content").item(0);
 const title = document.getElementsByClassName('main__title').item(0);
