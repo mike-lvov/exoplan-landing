@@ -30,8 +30,8 @@ Exoplan is an AI-powered personal assistant app that intelligently schedules tas
 - Health-aware planning that respects biological rhythms
 
 ## Contact
-Website: https://exoplan.app
-Support: support@exoplan.app
+Website: https://exoplan.io
+Support: support@exoplan.io
 
 ## Privacy & Security
 - End-to-end encryption for sensitive data
