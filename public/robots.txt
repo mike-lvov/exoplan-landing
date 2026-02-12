@@ -3,3 +3,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://exoplan.io/sitemap.xml
+Sitemap: https://exoplan.io/blog/sitemap.xml
