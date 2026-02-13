@@ -1,0 +1,10 @@
+# Redirect /privacy to the canonical privacy policy page
+/privacy    /privacy-policy/    301
+
+# App Store required URLs — redirect to privacy policy until dedicated pages exist
+/terms           /privacy-policy/    301
+/delete-account  /privacy-policy/    301
+
+# Stale crawled paths — redirect to homepage
+/home       /   301
+/@exo.ronin /   301
